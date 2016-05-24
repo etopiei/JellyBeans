@@ -1,0 +1,23 @@
+body {
+    background-color: coral;
+}
+input {
+    margin: 12px;
+    padding: 10px;
+    background-color: limegreen;
+}
+.well {
+    background-color: deepskyblue;
+    margin: 50px;
+}
+select {
+    width: 80px;
+    height: 30px;
+    background-color: limegreen;
+}
+.textbox {
+    height: 30px;
+}
+.result {
+    font-size: 25px;
+}

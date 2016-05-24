@@ -1,0 +1,55 @@
+<html>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery-min.js"> </script>
+    <script src="script.js"> </script>
+<body>
+    
+    <center>
+
+<h1>JellyBean in a Jar Calculator</h1>
+
+    <div class="input well"> 
+
+<h3>Enter information below: </h3>
+
+<form>
+
+<p> Height of Jar: 
+<input id='height' class="textbox"> </input>
+<select id="heightSelection">
+<option>cm</option>
+<option>in</option>
+</select>
+</p>
+
+<p> Radius of Jar: 
+<input id='radius' class="textbox"> </input>
+<select id="radiusSelection">
+<option>cm</option>
+<option>in</option>
+</select>
+</p>
+
+<br>
+
+<p> Estimated Packing Density (Least Dense - Most Dense): <br>
+<input type="range"  min="1" max="100" id="slider" value="50" onchange="getData()"> </input>
+</p>
+
+<input type="button" value="Calculate" onclick="getData()" ></input>
+
+</form>
+
+<br>
+
+<p id="result" class="result"> </p>
+
+</div>
+
+</center>
+
+<body>
+
+</html>
